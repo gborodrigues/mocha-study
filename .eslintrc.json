@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "no-use-before-define": "off",
+    "prettier/prettier": "error",
+    "no-plusplus": "off",
+    "class-methods-use-this": "off",
+    "no-unused-expressions": "off"
+  }
+}
